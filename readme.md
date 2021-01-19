@@ -4,16 +4,22 @@
 
 ### Dependencias
 
--NodeJS
--Express
--Cors
--Mongoose
--DotEnv
--Morgan
+<ul>
+    <li>NodeJS</li>
+    <li>Express</li>
+    <li>Cors</li>
+    <li>Mongoose</li>
+    <li>DotEnv</li>
+    <li>Morgan</li>
+</ul>
 
 ## Dependencias de desarrollo
--Nodemon
--Babel
+<ul>
+    <li>Nodemon</li>
+    <li>Babel</li>
+</ul>
 
 ### Plugins de VS para testear
-- REST Client
+<ul>
+    <li>REST Client</li>
+</ul>

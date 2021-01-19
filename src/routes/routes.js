@@ -11,6 +11,12 @@ router.get('/', (req, res)=>{
 
 router.get('/personajes', PersonajesController.todosLosPersonajes);
 
+router.get('/personajes-alfb', PersonajesController.personajesPorNombre);
+
+router.get('/personaje/:id', PersonajesController.personajePorId);
+
+router.get('/personaje-por-nombre/:nombre', PersonajesController.personajePorNombre);
+
 
 router.get('/planetas', (req, res)=>{
     res.json({

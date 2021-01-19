@@ -1,4 +1,6 @@
 import express from 'express';
+import cors from 'cors';
+import morgan from 'morgan';
 import IndiceRutas from './routes/routes';
 import './database/database';
 

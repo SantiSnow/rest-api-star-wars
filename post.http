@@ -4,3 +4,13 @@ GET http://localhost:3000/
 
 ###
 GET http://localhost:3000/personajes
+
+###
+GET http://localhost:3000/personajes-alfb
+
+###
+GET http://localhost:3000/personaje/1
+
+###
+GET http://localhost:3000/personaje-por-nombre/Luke Skywalker
+
