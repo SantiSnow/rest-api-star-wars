@@ -14,3 +14,24 @@ GET http://localhost:3000/personaje/1
 ###
 GET http://localhost:3000/personaje-por-nombre/Luke Skywalker
 
+
+
+###
+GET http://localhost:3000/planetas
+
+###
+GET http://localhost:3000/planetas-alfb
+
+###
+GET http://localhost:3000/planeta/1
+
+
+
+###
+GET http://localhost:3000/naves
+
+###
+GET http://localhost:3000/naves-alfb
+
+###
+GET http://localhost:3000/nave/1

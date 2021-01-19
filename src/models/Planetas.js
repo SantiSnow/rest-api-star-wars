@@ -2,8 +2,8 @@ import { Schema, model} from 'mongoose';
 
 const PlanetasModel = new Schema({
     Nombre: String,
-    Descripción: String,
-    Primer_aparición: String,
+    Descripcion: String,
+    Primer_Aparicion: String,
     Foto: String,
     ID: Number
 });
