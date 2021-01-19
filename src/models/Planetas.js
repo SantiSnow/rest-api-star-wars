@@ -1,6 +1,6 @@
-import { Scheema, model} from 'mongoose';
+import { Schema, model} from 'mongoose';
 
-const PlanetasModel = new Scheema({
+const PlanetasModel = new Schema({
     Nombre: String,
     Descripción: String,
     Primer_aparición: String,

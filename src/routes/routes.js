@@ -1,5 +1,7 @@
 import { Router } from 'express';
 import * as PersonajesController from './../controllers/PersonajesController';
+import * as PlanetasController from './../controllers/PlanetasController';
+import * as NavesController from './../controllers/NavesController';
 
 const router = Router();
 
@@ -18,16 +20,8 @@ router.get('/personaje/:id', PersonajesController.personajePorId);
 router.get('/personaje-por-nombre/:nombre', PersonajesController.personajePorNombre);
 
 
-router.get('/planetas', (req, res)=>{
-    res.json({
-        message: 'Planetas de Star Wars'
-    })
-});
+router.get('/planetas', PlanetasController.todosLosPlanetas);
 
-router.get('/naves', (req, res)=>{
-    res.json({
-        message: 'Naves de Star Wars'
-    })
-});
+router.get('/naves', NavesController.todasLasNaves);
 
 export default router;
