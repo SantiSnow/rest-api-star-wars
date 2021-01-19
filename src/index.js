@@ -1,13 +1,18 @@
 import express from 'express';
-import Routes from './routes/routes';
+import IndiceRutas from './routes/routes';
 import './database/database';
 
 //configuración del server
 const app = express();
 app.set('port', process.env.PORT || 3000);
 
+//middlewares
+app.use(express.json());
+app.use(cors());
+app.use(morgan('dev'));
+
 //rutas
-app.use(Routes);
+app.use(IndiceRutas);
 
 //inicio del server
 app.listen(app.get('port'));

@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import * as PersonajesController from './../controllers/PersonajesController';
 
 const router = Router();
 
@@ -8,11 +9,8 @@ router.get('/', (req, res)=>{
     })
 });
 
-router.get('/personajes', (req, res)=>{
-    res.json({
-        message: 'Personajes de star wars'
-    })
-});
+router.get('/personajes', PersonajesController.todosLosPersonajes);
+
 
 router.get('/planetas', (req, res)=>{
     res.json({

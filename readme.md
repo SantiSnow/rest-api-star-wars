@@ -6,7 +6,14 @@
 
 -NodeJS
 -Express
--Nodemon
--Babel
+-Cors
 -Mongoose
 -DotEnv
+-Morgan
+
+## Dependencias de desarrollo
+-Nodemon
+-Babel
+
+### Plugins de VS para testear
+- REST Client
